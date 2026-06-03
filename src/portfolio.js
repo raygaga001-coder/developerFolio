@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "雷嘉俊",
+  title: "雷嘉俊 | 电力能源系统工程师",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "12年电力能源经验 ⚡ 华为数字能源 × 南网体系｜储能安全｜数据中心供配电｜充电网络｜大功率电源"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -48,17 +48,18 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "核心能力",
+  subTitle: "传统电网底座 × 新能源系统研发 × 高可靠工程交付",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
-  ],
+    "⚡ 10kV/0.4kV供配电系统设计",
+    "🔋 储能系统安全设计与消防联动逻辑",
+    "🏢 数据中心供配电与高可靠电源系统",
+    "🚗 大功率充电网络 / FusionCharge 研发经验",
+    "🧪 EMC测试、系统鉴定测试、白盒测试",
+    "🧩 BCM/BCO国产化替代与供应链风险管控",
+    "🛠 现网故障治理、误告警分析、系统容错设计"
+  ]
+};
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -212,34 +213,38 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "核心项目",
+  subtitle: "Selected Engineering Projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      image: "",
+      projectName: "FusionCharge 智能充电网络研发",
+      projectDesc:
+        "参与华为第一代智能充电网络产品研发，负责大功率充电系统配电架构、器件选型、BOM设计、EMC测试与系统鉴定测试。",
+      footerLink: []
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: "",
+      projectName: "储能系统消防误告警治理",
+      projectDesc:
+        "针对储能系统现网消防误告警问题，优化强弱电联动逻辑、闭锁策略与白盒测试体系，误告警率下降【X】%。",
+      footerLink: []
+    },
+    {
+      image: "",
+      projectName: "BCM/BCO 国产化替代项目",
+      projectDesc:
+        "主导整机级关键器件国产化替代，完成器件验证、系统鉴定与风险闭环，BOM成本下降【X】%，实现零停线交付。",
+      footerLink: []
+    },
+    {
+      image: "",
+      projectName: "10kV/0.4kV 用户变配电工程",
+      projectDesc:
+        "负责负荷计算、主接线设计、变压器选型、电缆选型及继电保护设计，项目一次性通过供电局审查。",
+      footerLink: []
     }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  ]
 };
 
 // Achievement Section
